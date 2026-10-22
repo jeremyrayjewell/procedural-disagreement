@@ -1,0 +1,13 @@
+# Render output: frames, videos, contact sheets, built .blend files
+/renders/
+
+# Python
+__pycache__/
+*.pyc
+
+# Blender backups
+*.blend1
+*.blend2
+
+# A frame being written (tools/blender_entry.py renames it when whole)
+*.partial.png

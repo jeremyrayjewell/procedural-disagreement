@@ -1,0 +1,10 @@
+GNU Unifont 17.0.05 (released 2026-06-28)
+
+File:       unifont_all-17.0.05.hex.gz (with its detached signature, .sig)
+Source:     https://ftp.gnu.org/gnu/unifont/unifont-17.0.05/
+Licence:    dual: SIL Open Font License 1.1 (OFL-1.1.txt), or GPL v2+ with the GNU font
+            embedding exception (COPYING). Both permit rendering the glyphs into the film.
+
+Used for the Chinese lyric translation on the CRT wall and as world-space text (the director's
+choice: a true bitmap font, so no smoothing can creep in). The .hex format is read directly by
+tools/make_lyric_assets.py: each glyph is a 16 x 16 bitmap, used pixel for pixel.

@@ -1,0 +1,117 @@
+{
+ "made_by": "tools/make_crt_video.py",
+ "layout": "feeds",
+ "first": 1800,
+ "last": 2906,
+ "stream": "stream.mp4",
+ "frames": 2647,
+ "size": [
+  960,
+  540
+ ],
+ "clips": [
+  {
+   "file": "01.mp4",
+   "start": 0,
+   "frames": 359
+  },
+  {
+   "file": "02.mp4",
+   "start": 359,
+   "frames": 357
+  },
+  {
+   "file": "03.mp4",
+   "start": 716,
+   "frames": 322
+  },
+  {
+   "file": "04.mp4",
+   "start": 1038,
+   "frames": 292
+  },
+  {
+   "file": "05.mp4",
+   "start": 1330,
+   "frames": 294
+  },
+  {
+   "file": "06.mp4",
+   "start": 1624,
+   "frames": 328
+  },
+  {
+   "file": "07.mp4",
+   "start": 1952,
+   "frames": 308
+  },
+  {
+   "file": "08.mp4",
+   "start": 2260,
+   "frames": 387
+  }
+ ],
+ "screens": {
+  "2,0": {
+   "clip": "01.mp4",
+   "offset": 0
+  },
+  "2,1": {
+   "clip": "02.mp4",
+   "offset": 359
+  },
+  "2,2": {
+   "clip": "03.mp4",
+   "offset": 716
+  },
+  "2,3": {
+   "clip": "04.mp4",
+   "offset": 1038
+  },
+  "2,4": {
+   "clip": "05.mp4",
+   "offset": 1330
+  },
+  "1,0": {
+   "clip": "06.mp4",
+   "offset": 1624
+  },
+  "1,1": {
+   "clip": "07.mp4",
+   "offset": 1952
+  },
+  "1,2": {
+   "clip": "08.mp4",
+   "offset": 2260
+  },
+  "1,3": {
+   "clip": "01.mp4",
+   "offset": 179
+  },
+  "1,4": {
+   "clip": "02.mp4",
+   "offset": 537
+  },
+  "0,0": {
+   "clip": "03.mp4",
+   "offset": 877
+  },
+  "0,1": {
+   "clip": "04.mp4",
+   "offset": 1184
+  },
+  "0,2": {
+   "clip": "05.mp4",
+   "offset": 1477
+  },
+  "0,3": {
+   "clip": "06.mp4",
+   "offset": 1788
+  },
+  "0,4": {
+   "clip": "07.mp4",
+   "offset": 2106
+  }
+ },
+ "cap": 0.6
+}

@@ -1,0 +1,361 @@
+{
+  "about": "Layer 2 of 2: directorial cues for 00:35-01:05. Every time here was chosen by hand. analysis/audio_features.json (python tools/analyze_audio.py --report 0:30 1:10) was used to find the musical events, but nothing in this file is computed from it: edit a number and the film changes. Times are seconds of track time.",
+
+  "section": { "start": 35.0, "end": 65.0 },
+
+  "timeline_end": 112.5,
+
+  "lyrics": {
+    "about": "Timing of the sung words this passage is cut to. Words confirmed by the songwriter; times measured on the vocal's source recording, which sits on the master with zero offset. Line boundaries are good to about 0.05 s, words inside a line to about 0.15 s. The full alignment is in docs/lyric_alignment.md.",
+    "I'd like if it'd never been": [90.0, 94.5],
+    "to know what": [94.7, 95.9],
+    "land-": [96.1, 96.8],
+    "-fill": [96.85, 98.0],
+    "it is in": [98.1, 99.4]
+  },
+
+  "tempo": {
+    "bpm": 96.0,
+    "downbeat": 40.0,
+    "music": "Beats land on 30.00, 40.00, 50.00 and 60.00: 16 beats per 10 s. One beat is 0.625 s, one bar 2.5 s, one phrase (4 bars) 10 s. Cyclic motion (conduit pulses, rotors) is locked to this."
+  },
+
+  "cues": {
+    "opening_head": {
+      "t": 2.020,
+      "music": "OPENING. The first twenty seconds are a near-silent bed with one heavy low transient per bar, a little after two seconds in each time (2.020, 4.528, 7.024, 9.520, 12.028, then none at 14.5, then 17.032 and 19.528). They are the loudest things before the bass and each gets one acknowledgement. First: the head of the tower on the body's right is lit and turns from where it was parked to face a place that is still dark."
+    },
+    "opening_carriage": {
+      "t": 4.528,
+      "music": "Second low transient. The cabinet on the right wall is lit and runs 0.6 m along the wall rail into its station."
+    },
+    "opening_tray": {
+      "t": 7.024,
+      "music": "Third. The tray beside the plinth is lit and slides 0.8 m into place."
+    },
+    "opening_panel": {
+      "t": 9.520,
+      "music": "Fourth. One panel of the rear wall is lit and slides 0.5 m along the wall into its place."
+    },
+    "opening_body": {
+      "t": 12.028,
+      "music": "Fifth, the last before a bar with no transient. Light reaches the plinth and what stands on it: legs. Nothing moves."
+    },
+    "opening_shoulder": {
+      "t": 17.032,
+      "music": "After the empty bar. Light reaches the shoulders and torso: the place the tower head has been facing since 0:02 has a body in it."
+    },
+    "opening_couple_start": {
+      "t": 19.528,
+      "music": "The last low transient before the bass. The conduit ends begin to swing in toward the shoulders."
+    },
+    "opening_couple": {
+      "t": 20.004,
+      "music": "The bass enters, with the strongest transient since the start. The conduit ends close on the shoulders on the hit; the system is coupled. Pulses begin to leave the body, rotors run up over four seconds, the room becomes dimly visible as one space."
+    },
+    "opening_seat": {
+      "t": 26.250,
+      "music": "The heaviest low hit of the 0:20-0:30 phrase. The tower head turns from the body to its working heading and lowers onto its seat."
+    },
+    "opening_ready": {
+      "t": 30.000,
+      "music": "The strong hit that closes the preparation. READY: the overhead lamp comes down 0.4 m and docks on the risers above the body, and the room comes up to full light."
+    },
+    "hinge_open": {
+      "t": 117.5,
+      "music": "HINGE, 1:52.5-2:20. The music stays full to 2:00 (level about +11 dB, low band about +4). On this bar line, two bars after the locked picture ends, the dark over the pit stops being a ceiling: the level the chutes hang from begins to show. The camera, climbing since 1:52.5, passes up through it at 1:58.6."
+    },
+    "hinge_drain": {
+      "t": 120.0,
+      "music": "2:00.0: the low band drops about 5 dB on the downbeat and the analysis marks a section change at 2:00.3. From here to 2:15 the level drifts down about 3 dB and the highs fall about 5 dB. The station level is fully legible on this downbeat; from here the camera slows, climbs faster and tips down toward a plan view."
+    },
+    "hinge_cut": {
+      "t": 135.0,
+      "music": "2:15.0, the largest structural change in the first half of the track: after a last heavy low hit at 2:14.8 the level falls about 8-10 dB, low and high bands both drop about 10 dB. A hard cut, the second in the film: to one trunk and one station in darkness, from a camera that does not move."
+    },
+    "hinge_end": {
+      "t": 140.0,
+      "music": "2:20.0: the filtered refrain begins. A target boundary: nothing after it is authored. The state required here is in docs/hinge.md."
+    },
+    "refrain_procedure": {
+      "t": 160.0,
+      "music": "REFRAIN, 2:20-3:00. The filtered refrain runs eight times from 2:20.0, once every two bars; it is conditions, and nothing is cued to its repetitions. 2:20.0 rhymes with 0:20.0 (the reprise of the bass entry): the level couples there, on the hinge's own boundary cue. Here, at 2:40.0, the music reaches the bed of the first verse (the reprise of 0:40.0), without the verse. The stations begin their procedure, around no one: it starts at the station nearest the camera and passes outward, six metres a beat."
+    },
+    "refrain_end": {
+      "t": 180.0,
+      "music": "3:00.0: the third big entrance and the start of the 75 seconds with no voice. A target boundary: nothing after it is authored. The state required here is in docs/refrain.md."
+    },
+    "network_response": {
+      "t": 187.5,
+      "music": "NETWORK, 3:00-3:30. At 3:00.0 the high band rises about 13 dB and the level about 7 dB: the largest structural change in the track so far. The bar starting here carries one of the two heaviest low peaks of the passage (bars at 3:00.0 and 3:07.5), and the loudest single hit follows at 3:08.75. An array of holding cells indexes down on this bar line, and half a bar later, on that hit, a length of the heavy main rises."
+    },
+    "network_release": {
+      "t": 195.0,
+      "music": "3:15.0: the last heavy bar before the bass leaves, one procedure (three bars) after the response. The array returns; half a bar later the main settles."
+    },
+    "network_void": {
+      "t": 200.0,
+      "music": "3:20.0: the bass drops out, exactly on the downbeat. The low band falls 7-9 dB on average and its bar peaks about 10 dB; brightness rises (spectral centre from about 600 Hz to about 1100 Hz); level falls about 3 dB. The twin of 1:20.0. The stations beside the lane leave their procedures and turn to it; what lies across it withdraws."
+    },
+    "network_end": {
+      "t": 210.0,
+      "music": "3:30.0: the bar in which the bass returns (its first heavy hit is at about 3:30.5-3:31.2). A target boundary: nothing after it is authored. The state required here is in docs/network.md."
+    },
+    "prosthesis_seed": {
+      "t": 211.25,
+      "music": "COMPENSATION, 3:30-4:00. The bass does not return on the 3:30.0 downbeat: its first heavy hits are at 3:31.29 and 3:31.94, the latter the heaviest low hit since 3:19, and the strongest onset of the passage is at 3:31.24. Here, on the half-bar, station 237, whose head already faces the lane, takes a second relation: its head begins to go between the lane and station 224."
+    },
+    "prosthesis_relay": {
+      "t": 213.75,
+      "music": "One bar after the seed, on the next strong onset (3:33.75): the moment the first hand-on is complete. Station 224, which has no machinery, has by then indexed 1.6 m along its trunk (it starts a beat after the seed, at 3:31.875, and is done by 3:33.1, while the camera can still see it): the block is the corner of the path round the lane's end."
+    },
+    "prosthesis_detour": {
+      "t": 220.0,
+      "music": "3:40.0, the phrase boundary, after the heaviest bar of the first phrase (3:37.5, hits at 3:38.8 and 3:39.4). Level and bands are steady across it. Station 225, on the north bank, takes the carrier's part; the rest of the north bank follows within a bar."
+    },
+    "prosthesis_widen": {
+      "t": 230.0,
+      "music": "3:50.0, the next phrase boundary, with a strong onset; the high band has risen about 2 dB over the bar before. Stations 194 and 193 take the receiver's part together, station 224 indexes again, and three trunk runs take a receiver's part."
+    },
+    "prosthesis_end": {
+      "t": 240.0,
+      "music": "4:00.0, the start of the track's largest sustained peak. The heaviest low hit of this passage lands at 3:59.4, immediately before it, and is left unanswered. A target boundary: nothing after it is authored. The state required here is in docs/prosthesis.md."
+    },
+    "climax_lines": {
+      "t": 242.5,
+      "music": "The loudest bar of the passage begins (4:02.5), with a heavy low hit at 4:02.86. The fine runs begin to pair. The stations nearest the route have already taken parts; the spread goes on outward a beat at a time."
+    },
+    "climax_coupling": {
+      "t": 246.25,
+      "music": "The only harmonic change inside the passage (measured 4:06.22), followed at 4:06.93 by its heaviest low hit. The level's own structure joins: the heavy main and the heavy trunk begin to rise outward from their junction, and the columns of holding cells begin to shear."
+    },
+    "climax_saturation": {
+      "t": 251.25,
+      "music": "A heavy low hit (4:11.30) opens the last run of hits. Every trunk and main within reach rises, outward from the lane; the cells and the fine runs cross to the other side. All of it arrives together."
+    },
+    "climax_peak": {
+      "t": 254.375,
+      "music": "The last heavy low hit (measured 4:14.43), half a second before the music gives way at 4:14.9. Every large stroke arrives here. Nothing answers the collapse: that belongs to what follows."
+    },
+    "climax_end": {
+      "t": 255.0,
+      "music": "The music has just given way (level falls about 20 dB between 4:14.5 and 4:15.3). A boundary: nothing after it is authored."
+    },
+    "coda_scrawls": {
+      "t": 256.65,
+      "music": "The full voice has returned, quietly, on the largest structural break in the track (4:15). First statement of the refrain; the word 'scrawls' is sung from 4:16.65 to 4:17.10. By its start the irregular marks on the room's surfaces are all there."
+    },
+    "coda_order": {
+      "t": 257.5,
+      "music": "After the pause that follows 'scrawls' (about 4:17.1 to 4:17.5), the second line starts at 4:17.55. A second, ordered condition begins to stand beside the first."
+    },
+    "coda_bars": {
+      "t": 259.1,
+      "music": "The word 'bars' is sung from 4:19.10 to 4:19.60. By its start the ranked rows are all there. Both vocabularies are now explicit, side by side."
+    },
+    "coda_again": {
+      "t": 260.0,
+      "music": "The same couplet begins again, exactly five seconds after the first (4:20.10). The scrawls stay whole until the word that names them. The room begins to go down to the level the ending holds, and what is left of the system's circulation dies."
+    },
+    "coda_unscrawled": {
+      "t": 261.65,
+      "music": "Second 'scrawls' (4:21.65 to 4:22.10). The irregular marks go inside the word: withdrawal starts at 4:21.55, and none is left by 4:22.2."
+    },
+    "coda_withdraw": {
+      "t": 262.5,
+      "music": "After the pause, the second line again (4:22.55). The ranked rows are the only record left, and they begin to go, group by group. The lamp lets go of the risers."
+    },
+    "coda_last": {
+      "t": 264.1,
+      "music": "Second 'bars' (4:24.10 to 4:24.60), the last sung word in the track. Only the last group is left; it goes row by row inside the word."
+    },
+    "coda_silent": {
+      "t": 264.6,
+      "music": "The last sung word ends. Nothing explicit is left in the room, and everything stands exactly as the ending finds it at 4:25.0."
+    },
+    "ending_start": {
+      "t": 265.0,
+      "music": "ENDING (target). 4:25.0, after the withdrawal at 4:15-4:25, which is not authored. The state required here is documented in docs/outer_frame.md."
+    },
+    "ending_head": {
+      "t": 267.006,
+      "music": "The hardest transient in the track. The tower head turns from the carriage to face the empty coordinate: the shoulder that is not there."
+    },
+    "ending_carriage": {
+      "t": 270.710,
+      "music": "3.7 s later. The carriage runs to the body's line again and extends, as it did at 1:15, against nothing."
+    },
+    "ending_confirm": {
+      "t": 275.714,
+      "music": "5.0 s later: the last strong transient. The lamp, which stands 0.2 m off the risers once there is nobody under it, comes down and docks on them again, over the empty plinth. The last motion in the film; it ends at 4:36.2."
+    },
+    "ending_silence": {
+      "t": 276.3,
+      "music": "The level falls 40 dB between 4:36.0 and 4:36.5 and the track is silent to 4:40.0. Nothing moves."
+    },
+    "ending_end": {
+      "t": 280.0,
+      "music": "End of the track."
+    },
+    "camera_aim_start": {
+      "t": 40.0,
+      "music": "Section entrance. The camera starts to favour the arm as the first plane appears."
+    },
+    "plane_a_enter": {
+      "t": 40.0,
+      "music": "The big entrance: loudness jumps about 9 dB over the bar before, strongest structural change before 1:00. Plane A appears on the hit."
+    },
+    "plane_a_arrive": {
+      "t": 42.5,
+      "music": "Downbeat of bar 2 of the phrase. Plane A locks onto the shoulder."
+    },
+    "plane_b_enter": {
+      "t": 42.5,
+      "music": "Same downbeat: as A settles, the competing plane appears."
+    },
+    "plane_b_arrive": {
+      "t": 45.0,
+      "music": "Bar 3: the loudest accent of the phrase."
+    },
+    "disagreement_start": {
+      "t": 45.0,
+      "music": "That same accent. Both planes are in place; they start to contest and the alternate reality begins to split off."
+    },
+    "divergence_end": {
+      "t": 47.5,
+      "music": "Bar 4, the last bar of the phrase: the alternate is fully separate before the phrase turns over."
+    },
+    "camera_aim_end": {
+      "t": 50.0,
+      "music": "The camera has settled on the arm by the time it is cut."
+    },
+    "primary_cut": {
+      "t": 50.0,
+      "music": "The phrase repeats with a sharp transient, and the bass is absent on this downbeat (lowest low-band energy of the phrase). The limb leaves as the bottom drops out."
+    },
+    "primary_infrastructure_failure": {
+      "t": 52.5,
+      "music": "One bar later. The darkness takes exactly a bar to cross the room; the tower starts to fail on the next downbeat."
+    },
+    "primary_region_at_rest": {
+      "t": 56.25,
+      "music": "The heaviest bass hit of the phrase (0:56.26). The arm comes to rest on the tray with it."
+    },
+    "alternate_cut": {
+      "t": 55.0,
+      "music": "Bar 3 of the repeated phrase: its loudest accent, the counterpart of 0:45 where the disagreement began. The other version of the cut is carried out here."
+    },
+    "alternate_infrastructure_failure": {
+      "t": 57.5,
+      "music": "The music starts thinning out here and keeps falling until 1:00. The alternate tower is crippled as the energy drains."
+    },
+    "alternate_region_at_rest": {
+      "t": 62.5,
+      "music": "End of the first bar of the new section."
+    },
+    "plane_a_retreat_start": {
+      "t": 57.5,
+      "music": "Start of the thin-out. Plane A, its work done, withdraws as the music empties."
+    },
+    "plane_a_retreat_end": {
+      "t": 60.0,
+      "music": "Gone by the downbeat of the new section."
+    },
+    "camera_emphasis": {
+      "t": 60.0,
+      "music": "The largest change in the interval: highs open up by about 8 dB and the full texture enters. The camera surges forward on the hit."
+    },
+    "system_divergence": {
+      "t": 60.0,
+      "music": "The same transition. The disagreement leaves the body: a second interpretation of the right-hand dependency (conduit route, tower, the wall ribs it runs along) starts to swing away from the primary on this downbeat."
+    },
+    "plane_b_retreat_start": {
+      "t": 61.25,
+      "music": "The strongest low hit after the new section starts. Plane B, unresolved, begins to fade."
+    },
+    "plane_b_retreat_end": {
+      "t": 65.0,
+      "music": "End of the section."
+    },
+    "phantom_load": {
+      "t": 66.25,
+      "music": "The first strong event after 1:05: the strongest transient of its bar and a heavy low hit (1:06.26). It is the same place in the phrase as 0:56.25, where the primary arm came to rest on the tray, exactly one phrase earlier. The body moves the limb that is no longer there. The load peaks two beats later at 1:07.5, the loudest beat of the passage, and has settled to its residue by the end of the phrase at 1:10."
+    },
+    "reindex_first": {
+      "t": 70.0,
+      "music": "Bar 1 of the full, steady phrase 1:10-1:20, in which nothing in the music changes. Routine procedure after the amputation: the head of the tower that failed, left lifted and turned aside since 0:56, levels, lowers and turns to face the shoulder the arm was removed from."
+    },
+    "reindex_second": {
+      "t": 72.5,
+      "music": "Bar 2. Elsewhere in the room, a cabinet on the right wall runs along the wall rail toward the body's line and stops."
+    },
+    "reindex_crosscheck": {
+      "t": 75.0,
+      "music": "Bar 3. The tower head turns from the body to the cabinet; as it arrives, the cabinet extends upward. The two are checked against each other."
+    },
+    "reindex_accept": {
+      "t": 77.5,
+      "music": "Bar 4. The cabinet retracts and backs off, the head follows it and rises to a new height. Neither returns to where it was. Everything is still by 1:19.3, before the bass drops out at 1:20.0."
+    },
+    "absent_attractor": {
+      "t": 80.0,
+      "music": "The first structural change after 1:10. The harmony does not move (it stays on F until about 1:30), but on this downbeat the bass drops out: the low band falls 7-10 dB and stays out for the whole four-bar phrase, while the brightness doubles. The room begins to organise itself around the missing hand during exactly the phrase in which the low end is missing. Responses start one bar apart (1:20, 1:22.5, 1:25, 1:27.5) and all arrive at 1:30.0, when the bass returns."
+    },
+    "prosthetic_recruitment": {
+      "t": 90.0,
+      "music": "The phrase downbeat: the largest loudness jump in the passage (about +8 dB) and a timbre-novelty peak at 1:29.91. The stump begins a deliberate movement here. The bass is not actually back on this downbeat: it lands in force two beats later, at 1:31.25, and that is when the recruited rib answers. The second articulation arrives on the heavy low hit at 1:36.25, and everything has settled by the end of the phrase at 1:40. (Since shortened: the gesture is now a brief bridge of one correspondence, out and settled before the second line of the lyric.)"
+    },
+    "disposal_handling": {
+      "t": 92.5,
+      "music": "Bar 2 of the phrase, under 'never been'. The chamber begins to handle the removed forearm: it is turned flat and set down on the black tray."
+    },
+    "disposal_transport": {
+      "t": 93.75,
+      "music": "Half a bar on, as 'been' is held. The tray leaves its post position and runs along the floor channel. The camera leaves its hold here."
+    },
+    "landfill": {
+      "t": 96.25,
+      "music": "The syllable 'land-' (onset about 1:36.1) meeting the heaviest low hit of the phrase at 1:36.25. The irreversible moment: the tray and what is on it go down through the floor. Everything has passed below it within the beat."
+    },
+    "landfill_cut": {
+      "t": 96.9,
+      "music": "The onset of '-fill' (about 1:36.85). A hard cut to below the floor: the first cut in the film. The forearm is already falling, at the speed the tray was lowering it."
+    },
+    "landfill_impact": {
+      "t": 98.4,
+      "music": "'is', in 'it is in' (about 1:38.4). The forearm reaches the accumulated waste. One short hop, and it has settled by 'in' (about 1:38.8)."
+    },
+    "landfill_flyover": {
+      "t": 98.8,
+      "music": "The moment the forearm comes to rest, under the held 'in'; the heavy low note at 1:39.4 falls inside the glide. The camera begins a slow, low glide forward over the heap."
+    },
+    "landfill_flyover_climb": {
+      "t": 100.0,
+      "music": "The next phrase starts: the voice re-enters on the downbeat with the same melody as 1:30. The camera accelerates and begins to climb, and goes on climbing for the length of the sung phrase (to about 1:49.4)."
+    },
+    "landfill_flyover_wide": {
+      "t": 110.0,
+      "music": "The strongest downbeat of the passage (1:50.0), after which the voice is silent for more than twelve seconds. The widest view arrives here: the field with nobody singing over it."
+    },
+    "landfill_disposal_1": {
+      "t": 102.5,
+      "music": "Bar 2 of the sung phrase. A torso block comes out of a long chute close to the camera's path: the first sign that the system is still running."
+    },
+    "landfill_disposal_2": {
+      "t": 105.0,
+      "music": "Bar 3, the phrase's accent. Far off to the left, a leg."
+    },
+    "landfill_disposal_3": {
+      "t": 107.5,
+      "music": "Bar 4, the loudest bar of the phrase, and inside the held '-fill' of the second sung 'landfill' (about 1:46.9 to 1:48.0). To the right, about 30 m off, another station releases a grey arm: not ours, another one going to the same place."
+    },
+    "landfill_disposal_4": {
+      "t": 110.0,
+      "music": "The strong downbeat on which the voice stops and the widest view arrives. Another arm leaves its chute: the field is still working as we leave it."
+    },
+    "disposal_sealed": {
+      "t": 97.5,
+      "music": "During the long sustained '-fill' (about 1:36.85 to 1:38.0). The floor has closed over it by this downbeat."
+    }
+  }
+}
